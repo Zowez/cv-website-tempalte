@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Portfolio Website</title>
+
+
+    <style media="screen">
+      
+      *{
+        border-spacing: 0px;
+      }
+
+      a {
+        text-decoration: none;  
+        color: inherit;
+      }
+      nav{
+        position: fixed;
+        width: 100%;
+        top: 0px;
+      }
+
+      html{
+        scroll-behavior: smooth;
+      }
+      
+      .table{
+        width: 100%;
+        background-color: black;
+        color: white;
+        border-spacing: 0px;
+        
+      }
+
+      .name_tag{
+        width: 50%;
+        font-family: 'Bauhaus 93';
+        font-size: xx-large;
+        padding-left: 69px;
+      }
+
+      .nav_members{
+        text-align: center;
+        font-family: 'Arial Rounded MT';
+        font-size: 20px;
+        padding: 0px;
+
+      }
+
+      .nav_members:hover{
+        color: brown;
+        background-color: white;  
+      }
+
+      .header{
+        text-align: center;
+        font-size: 70px;
+        color: white;
+        font-family: 'Arial Rounded MT';
+      }
+
+      .social{
+        background-color: white;
+        height: 100px;
+        width: 100px;
+        border-radius: 20px;
+        
+      }
+      
+      .p{
+        font-family: 'Arial Rounded MT';
+        font-size: 25px;
+        color: white;
+      }
+
+      .td{
+        padding: 50px;
+      }
+      
+      #home{
+        margin: 10%;
+      }
+
+      #about_me{
+        margin: 10%;
+      }
+      #skills{
+        margin: 10%;
+      }
+      #contact{
+        margin: 10%;
+      }
+
+      .img{
+        height: 200px;
+        width: 200px;
+        border-radius: 30px;
+        margin: 50px;
+      }
+      .input_range{
+        background: linear-gradient(to right, brown 0%, brown 40%, #fff 40%, #fff 100%);
+        border: solid 2px brown;
+        border-radius: 8px;
+        height: 7px;
+        width: 400px;
+        outline: none;
+        transition: background 450ms ease-in;
+        -webkit-appearance: none;
+      }
+      .input::-webkit-slider-thumb {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        -webkit-appearance: none;
+        cursor: ew-resize;
+        background: #434343;
+      }
+
+      .input{
+        width: 50%;
+        font-size: 30px;
+        border-radius: 20px;
+        padding: 20px;
+        font-family: 'Arial Rounded MT';
+
+        
+      }
+      #subject-input{
+        width: 100%;
+        font-size: 30px;
+        border-radius: 20px;
+        padding: 20px;
+        height: 434px;
+        font-family: 'Arial Rounded MT';
+
+      }
+      #submit-button{
+        width: 33%;
+        font-size: 30px;
+        border-radius: 20px;
+        padding: 20px;
+        color: white;
+        background-color: brown;
+        font-family: 'Arial Rounded MT';
+        margin-left: 33%;
+      }
+      
+      #submit-button:hover{
+        background-color: white;
+        color: brown;
+      }
+
+      .a{
+        display: block;
+        height: 100%;
+        padding-top: 15px;
+      }
+      .span{
+        vertical-align: middle;
+        line-height: 100%;
+      }
+      
+    </style>
+
+    <script>
+
+    </script>
+
+
+  </head>
+  <body style="margin: 0; background-color: black;">
+    <nav style="margin: 0px;">
+      <table class="table">
+        <tr style="border-spacing: 0px;">
+          <td class="name_tag">{Your Name}</td>
+            <td style="border-bottom-left-radius: 20px; background-color: brown; padding: 0px;"><table style="width:100%; height: 100%; margin: 0px; height: 48.4px;"><tr>
+            <td class="nav_members" style="border-bottom-left-radius: 20px;"><a href="#about_me" class="a"><span class="span">About Me</span></a></td>
+            <td class="nav_members"><a href="#skills" class="a"><span class="span">Skills</span</a></td>
+            <td class="nav_members"><a href="#contact" class="a"><span class="span">Contact</span></a></td>
+          </tr></table></td>
+        </tr>
+      </table>
+    </nav>
+    <section id="home">
+        <table class="table">
+          <tr>
+            <td class="td" rowspan="2"><img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__340.png" alt="" style="border-radius: 50px;"></td>
+            <td class="td" colspan="4" ><h1 class="header">I'am {Your Name}</h1><p class="p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta consectetur deleniti voluptatum. Ipsa cumque possimus dolorem necessitatibus autem obcaecati, optio est similique reiciendis commodi voluptatum magnam! Doloremque sunt suscipit quia.</p></td>
+          </tr>
+          <tr>
+            <td class="td" ><a href="https://www.instagram.com"><img src="https://cdn4.iconfinder.com/data/icons/picons-social/57/38-instagram-2-256.png" alt="" class="social" ></a></td>
+            <td class="td" ><a href="https://github.com"><img src="https://cdn0.iconfinder.com/data/icons/social-network-9/50/29-256.png" alt="" class="social"></a></td>
+            <td class="td" ><a href="https://tr.linkedin.com"><img src="https://cdn0.iconfinder.com/data/icons/social-23/100/social_linked_in-256.png" alt="" class="social"></a></td>
+            <td class="td" ><a href="https://twitter.com"><img src="https://cdn3.iconfinder.com/data/icons/picons-social/57/03-twitter-256.png" alt="" class="social"></a></td>
+          </tr>
+        </table>
+    </section>
+    <section id="about_me">
+      <h1 class="header">About Me</h1>
+      <table>
+        <tr>
+          <td><img class="img" src="https://www.shutterstock.com/image-vector/camera-icon-vector-260nw-1058202980.jpg" alt=""></td>
+          <td><p class="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit aliquam quasi, in eaque vitae facere minus officiis odit mollitia tenetur nostrum distinctio culpa nesciunt repellat corrupti est aperiam qui id? Obcaecati quos esse quis cupiditate possimus earum labore blanditiis dolores necessitatibus officia? Delectus earum animi quasi magnam illo repudiandae labore.</p></td>
+        </tr>
+        <tr>
+          <td><img class="img" src="https://www.shutterstock.com/image-vector/camera-icon-vector-260nw-1058202980.jpg" alt=""></td>
+          <td><p class="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit aliquam quasi, in eaque vitae facere minus officiis odit mollitia tenetur nostrum distinctio culpa nesciunt repellat corrupti est aperiam qui id? Obcaecati quos esse quis cupiditate possimus earum labore blanditiis dolores necessitatibus officia? Delectus earum animi quasi magnam illo repudiandae labore.</p></td>
+        </tr>
+        <tr>
+          <td><img class="img" src="https://www.shutterstock.com/image-vector/camera-icon-vector-260nw-1058202980.jpg" alt=""></td>
+          <td><p class="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit aliquam quasi, in eaque vitae facere minus officiis odit mollitia tenetur nostrum distinctio culpa nesciunt repellat corrupti est aperiam qui id? Obcaecati quos esse quis cupiditate possimus earum labore blanditiis dolores necessitatibus officia? Delectus earum animi quasi magnam illo repudiandae labore.</p></td>
+        </tr>
+        <tr>
+          <td><img class="img" src="https://www.shutterstock.com/image-vector/camera-icon-vector-260nw-1058202980.jpg" alt=""></td>
+          <td><p class="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit aliquam quasi, in eaque vitae facere minus officiis odit mollitia tenetur nostrum distinctio culpa nesciunt repellat corrupti est aperiam qui id? Obcaecati quos esse quis cupiditate possimus earum labore blanditiis dolores necessitatibus officia? Delectus earum animi quasi magnam illo repudiandae labore.</p></td>
+        </tr>
+      </table>
+    </section>
+    <section id="skills">
+      <h1 class="header">Skilss</h1>
+      <table>
+        <tr>
+          <td class="td"><p class="p">Html,Css,Js</p><input disabled type="range" value="70" min="0" max="100" step="1" class="input_range" style="background: linear-gradient(to right, brown 0%, brown 70%, #fff 70%, #fff 100%);"></td>
+          <td class="td"><p class="p">SQL</p><input  disabled type="range" value="80" min="0" max="100" step="1" class="input_range" style="background: linear-gradient(to right, brown 0%, brown 80%, #fff 80%, #fff 100%);"></td>
+          <td class="td"><p class="p">PHP</p><input  disabled type="range" value="60" min="0" max="100" step="1" class="input_range" style="background: linear-gradient(to right, brown 0%, brown 60%, #fff 60%, #fff 100%);"></td>
+        </tr>
+        <tr>
+          <td class="td"><p class="p">Java</p><input  disabled type="range" value="80" min="0" max="100" step="1" class="input_range" style="background: linear-gradient(to right, brown 0%, brown 80%, #fff 80%, #fff 100%);"></td>
+          <td class="td"><p class="p">C\C++</p><input  disabled type="range" value="70" min="0" max="100" step="1" class="input_range" style="background: linear-gradient(to right, brown 0%, brown 70%, #fff 70%, #fff 100%);"></td>
+          <td class="td"><p class="p">Python</p><input  disabled type="range" value="90" min="0" max="100" step="1" class="input_range" style="background: linear-gradient(to right, brown 0%, brown 90%, #fff 90%, #fff 100%);"></td>
+        </tr>
+      </table>
+    </section>
+    <section id="contact">
+        <h1 class="header">Contact Me</h1>
+        <table style="width: 100%;">
+          <tr>
+            <td class="td"><input type="text" placeholder="Name" class="input">
+            <td class="td" rowspan="3" colspan="2"><textarea name="subject" id="subject-input" placeholder="Type your massage here"></textarea></td>
+          </tr>
+          <tr>
+            <td class="td"><input type="text" placeholder="Surname" class="input"></td>
+            
+          </tr>
+          <tr>
+            <td class="td"><input type="email" placeholder="Email" class="input"></td>
+          </tr>
+        </table>
+        <input type="submit" name="submit" id="submit-button" value="Submit">
+
+    </section>
+  </body>
+</html>
